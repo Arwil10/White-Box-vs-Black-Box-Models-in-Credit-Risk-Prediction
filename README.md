@@ -5,13 +5,6 @@ comparison of logistic regression and machine learning methods using the Give Me
 
 This project implements a credit scoring pipeline in **R** to predict the **Probability of Default (PD)**. It benchmarks traditional **Logistic Regression** against **Regularized Regression (LASSO)** and **Decision Trees**, providing a framework for comparing interpretability vs. predictive power.
 
-##  Table of Contents
-- [Overview](#-overview)
-- [Methodology](#-methodology)
-- [Project Structure](#-project-structure)
-- [Prerequisites](#-prerequisites)
-- [Key Results](#-key-results)
-- [Visualizations](#-visualizations)
 
 ##  Overview
 
@@ -39,8 +32,6 @@ The industry standard for scorecards. We check for multicollinearity using the *
 
 #### B. LASSO Regression (glmnet)
 Used for automated feature selection. The objective function minimizes the negative log-likelihood with an L1 penalty:
-
-$$\min_{\beta} \left\{ - \frac{1}{N} \text{LogLikelihood}(\beta) + \lambda \| \beta \|_1 \right\}$$
 
 * **Optimization:** Uses `cv.glmnet` to find the optimal $\lambda$ (lambda) that maximizes AUC.
 
