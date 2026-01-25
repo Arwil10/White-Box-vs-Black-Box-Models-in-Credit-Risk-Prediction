@@ -1,6 +1,3 @@
-# White-Box-vs-Black-Box-Models-in-Credit-Risk-Prediction
-comparison of logistic regression and machine learning methods using the Give Me Some Credit dataset
-
 #  Credit Risk Scoring & Model Benchmarking
 
 This project implements a credit scoring pipeline in **R** to predict the **Probability of Default (PD)**. It benchmarks traditional **Logistic Regression** against **Regularized Regression (LASSO)** and **Decision Trees**, providing a framework for comparing interpretability vs. predictive power.
