@@ -8,7 +8,7 @@ This project implements a credit scoring pipeline in **R** to predict the **Prob
 
 ##  Overview
 
-The script (`credit_scoring.R`) performs an end-to-end analysis:
+The script  performs an end-to-end analysis:
 1.  **Data Ingestion:** Loads the "Give Me Some Credit" training dataset.
 2.  **Preprocessing:** Handles missing values (`NA`), filters outliers, and creates a balanced subsample.
 3.  **Modeling:** Trains three distinct classifiers:
